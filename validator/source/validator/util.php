@@ -16,9 +16,9 @@ namespace Components;
   {
     // STATIC ACCESSORS
     /**
-     * @throws Validator_Exception
-     *
      * @return boolean
+     *
+     * @throws \Components\Validator_Exception
      */
     public static function matches($value_, $pattern_, $quiet_=false)
     {
@@ -31,9 +31,9 @@ namespace Components;
     }
 
     /**
-     * @throws Validator_Exception
-     *
      * @return boolean
+     *
+     * @throws \Components\Validator_Exception
      */
     public static function validateEmail($value_, $quiet_=false)
     {

@@ -28,6 +28,10 @@ namespace Components;
 
 
     // OVERRIDES/IMPLEMENTS
+    /**
+     * (non-PHPdoc)
+     * @see Components.Validator::validate()
+     */
     public function validate($value_, $quiet_=false)
     {
       try

@@ -12,15 +12,15 @@ namespace Components;
    *
    * @author evalcode.net
    */
-  interface Validator
+  interface Validator extends Object
   {
     // ACCESSORS/MUTATORS
     /**
      * @param mixed $value_
      *
-     * @throws Validator_Exception
-     *
      * @return boolean
+     *
+     * @throws \Components\Validator_Exception
      */
     function validate($value_, $quiet_=false);
     //--------------------------------------------------------------------------
