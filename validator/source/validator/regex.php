@@ -27,7 +27,7 @@ namespace Components;
     //--------------------------------------------------------------------------
 
 
-    // OVERRIDES/IMPLEMENTS
+    // OVERRIDES
     /**
      * (non-PHPdoc)
      * @see Components.Validator::validate()

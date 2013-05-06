@@ -14,7 +14,7 @@ namespace Components;
    */
   interface Validator extends Object
   {
-    // ACCESSORS/MUTATORS
+    // ACCESSORS
     /**
      * @param mixed $value_
      *
