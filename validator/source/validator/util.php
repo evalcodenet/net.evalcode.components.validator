@@ -18,7 +18,7 @@ namespace Components;
     /**
      * @return boolean
      *
-     * @throws \Components\Validator_Exception
+     * @throws Components\Validator_Exception
      */
     public static function matches($value_, $pattern_, $quiet_=false)
     {
@@ -33,7 +33,7 @@ namespace Components;
     /**
      * @return boolean
      *
-     * @throws \Components\Validator_Exception
+     * @throws Components\Validator_Exception
      */
     public static function validateEmail($value_, $quiet_=false)
     {
