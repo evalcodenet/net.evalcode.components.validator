@@ -20,7 +20,7 @@ namespace Components;
      *
      * @return boolean
      *
-     * @throws Components\Validator_Exception
+     * @throws \Components\Validator_Exception
      */
     function validate($value_, $quiet_=false);
     //--------------------------------------------------------------------------
