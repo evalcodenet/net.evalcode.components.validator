@@ -28,9 +28,7 @@ namespace Components;
 
 
     // OVERRIDES
-    /**
-     * (non-PHPdoc)
-     * @see Components\Validator::validate()
+    /**     * @see Components\Validator::validate() Components\Validator::validate()
      */
     public function validate($value_, $quiet_=false)
     {
