@@ -7,8 +7,8 @@ namespace Components;
   /**
    * Validator_Email
    *
-   * @package net.evalcode.components
-   * @subpackage validator
+   * @api
+   * @package net.evalcode.components.validator
    *
    * @author evalcode.net
    */
@@ -28,7 +28,8 @@ namespace Components;
 
 
     // OVERRIDES
-    /**     * @see Components\Validator::validate() Components\Validator::validate()
+    /**
+     * @see Components\Validator::validate() Components\Validator::validate()
      */
     public function validate($value_, $quiet_=false)
     {

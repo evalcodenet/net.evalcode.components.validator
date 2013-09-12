@@ -7,8 +7,8 @@ namespace Components;
   /**
    * Validator
    *
-   * @package net.evalcode.components
-   * @subpackage validator
+   * @api
+   * @package net.evalcode.components.validator
    *
    * @author evalcode.net
    */

@@ -7,8 +7,8 @@ namespace Components;
   /**
    * Validator_Regex
    *
-   * @package net.evalcode.components
-   * @subpackage validator
+   * @api
+   * @package net.evalcode.components.validator
    *
    * @author evalcode.net
    */
@@ -28,7 +28,8 @@ namespace Components;
 
 
     // OVERRIDES
-    /**     * @see Components\Validator::validate() Components\Validator::validate()
+    /**
+     * @see Components\Validator::validate() Components\Validator::validate()
      */
     public function validate($value_, $quiet_=false)
     {
@@ -43,14 +44,16 @@ namespace Components;
       return true;
     }
 
-    /**     * @see Components\Object::hashCode() Components\Object::hashCode()
+    /**
+     * @see Components\Object::hashCode() Components\Object::hashCode()
      */
     public function hashCode()
     {
       return string_hash($object_->pattern);
     }
 
-    /**     * @see Components\Object::equals() Components\Object::equals()
+    /**
+     * @see Components\Object::equals() Components\Object::equals()
      */
     public function equals($object_)
     {
@@ -60,7 +63,8 @@ namespace Components;
       return false;
     }
 
-    /**     * @see Components\Object::__toString() Components\Object::__toString()
+    /**
+     * @see Components\Object::__toString() Components\Object::__toString()
      */
     public function __toString()
     {
