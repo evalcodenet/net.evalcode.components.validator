@@ -12,7 +12,7 @@ namespace Components;
    *
    * @author evalcode.net
    */
-  class Validator_Exception extends Runtime_Exception
+  class Validator_Exception extends Runtime_Exception_Abstract
   {
 
   }
