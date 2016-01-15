@@ -49,7 +49,7 @@ namespace Components;
      */
     public function hashCode()
     {
-      return string_hash($object_->pattern);
+      return \math\hashs($object_->pattern);
     }
 
     /**
